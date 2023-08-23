@@ -19,9 +19,8 @@ while tent > 0 and vida > 0: #enquanto a tentativa e vida é maior que zero... (
         vida = vida - abs(number - num_sor)   #Número de vidas vida(número escrito - número sorteado)
         print("Você errou! poxa que pena, tente novamente ")
         print("Você tem:", vida, "DE VIDA")
+        print("Você tem:", tent, "TENTATIVAS\n")
         continue
 if tent == 0 or vida <= 0:    #quando a tentativa for zero ou a vida menor ou igual a zero acaba o jogo
     print("Poxa camarada se perdeu ermão")
     print("o número sorteado era: ", num_sor)
-
-
